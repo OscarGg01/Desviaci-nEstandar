@@ -43,7 +43,7 @@ class TestCalculos(unittest.TestCase):
         self.assertEqual(calcular_desviacion_estandar([0, 0, 0, 0]), 0.0)
 
     def test_desviacion_elementos_positivos_y_negativos(self):
-        self.assertAlmostEqual(calcular_desviacion_estandar([-3, -1, 1, 3]), 2.0)
+        self.assertAlmostEqual(calcular_desviacion_estandar([-3, -1, 1, 3]), 2.236067977)
 
     def test_desviacion_elementos_no_numericos(self):
         with self.assertRaises(TypeError):
