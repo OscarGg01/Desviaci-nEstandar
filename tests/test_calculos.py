@@ -32,3 +32,6 @@ class TestCalculos(unittest.TestCase):
 
     def test_desviacion_un_elemento(self):
         self.assertEqual(calcular_desviacion_estandar([5]), 0.0)
+
+    def test_desviacion_dos_elementos(self):
+        self.assertAlmostEqual(calcular_desviacion_estandar([5, 15]), 5.0)
