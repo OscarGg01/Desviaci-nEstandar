@@ -10,3 +10,5 @@ class TestCalculos(unittest.TestCase):
     def test_media_un_elemento(self):
         self.assertEqual(calcular_media([5]), 5)
 
+    def test_media_dos_elementos(self):
+        self.assertEqual(calcular_media([5, 15]), 10)
