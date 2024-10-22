@@ -25,3 +25,7 @@ class TestCalculos(unittest.TestCase):
     def test_media_elementos_no_numericos(self):
         with self.assertRaises(TypeError):
             calcular_media([1, 2, "a", 3])
+
+    def test_desviacion_lista_vacia(self):
+        with self.assertRaises(NoSePuedeCalcular):
+            calcular_desviacion_estandar([])

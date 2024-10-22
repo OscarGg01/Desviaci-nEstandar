@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0936d60a-df4d-4749-a136-a771ae331ac1" name="Changes" comment="Se añadió el codigo para el promedio y la desiación estandar">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="0936d60a-df4d-4749-a136-a771ae331ac1" name="Changes" comment="Se añadió la prueba para la función de media con elementos no numericos">
       <change beforePath="$PROJECT_DIR$/tests/test_calculos.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_calculos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729570077712</updated>
-      <workItem from="1729570079033" duration="1663000" />
+      <workItem from="1729570079033" duration="1961000" />
     </task>
     <task id="LOCAL-00001" summary="Se añadió el codigo para el promedio y la desiación estandar">
       <option name="closed" value="true" />
@@ -109,7 +108,63 @@
       <option name="project" value="LOCAL" />
       <updated>1729574406694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se añadió un ejemplo en main y la prueba para la función de media con la lista vacía">
+      <option name="closed" value="true" />
+      <created>1729574720614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574720614</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se añadió la prueba para la función de media con un elemento">
+      <option name="closed" value="true" />
+      <created>1729574771315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574771315</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se añadió la prueba para la función de media con dos elementos">
+      <option name="closed" value="true" />
+      <created>1729574797142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574797142</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Se añadió la prueba para la función de media con elementos positivos">
+      <option name="closed" value="true" />
+      <created>1729574825092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574825092</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se añadió la prueba para la función de media con elementos ceros">
+      <option name="closed" value="true" />
+      <created>1729574847460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574847460</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Se añadió la prueba para la función de media con elementos positivos y negativos">
+      <option name="closed" value="true" />
+      <created>1729574870084</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574870084</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Se añadió la prueba para la función de media con elementos no numericos">
+      <option name="closed" value="true" />
+      <created>1729574892869</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729574892869</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +172,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se añadió el codigo para el promedio y la desiación estandar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se añadió el codigo para el promedio y la desiación estandar" />
+    <MESSAGE value="Se añadió un ejemplo en main y la prueba para la función de media con la lista vacía" />
+    <MESSAGE value="Se añadió la prueba para la función de media con un elemento" />
+    <MESSAGE value="Se añadió la prueba para la función de media con dos elementos" />
+    <MESSAGE value="Se añadió la prueba para la función de media con elementos positivos" />
+    <MESSAGE value="Se añadió la prueba para la función de media con elementos ceros" />
+    <MESSAGE value="Se añadió la prueba para la función de media con elementos positivos y negativos" />
+    <MESSAGE value="Se añadió la prueba para la función de media con elementos no numericos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se añadió la prueba para la función de media con elementos no numericos" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Desviación_estandar$.coverage" NAME=" Coverage Results" MODIFIED="1729574632577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
