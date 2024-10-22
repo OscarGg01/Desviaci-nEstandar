@@ -29,3 +29,6 @@ class TestCalculos(unittest.TestCase):
     def test_desviacion_lista_vacia(self):
         with self.assertRaises(NoSePuedeCalcular):
             calcular_desviacion_estandar([])
+
+    def test_desviacion_un_elemento(self):
+        self.assertEqual(calcular_desviacion_estandar([5]), 0.0)
