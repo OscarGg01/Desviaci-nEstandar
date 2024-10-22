@@ -21,3 +21,7 @@ class TestCalculos(unittest.TestCase):
 
     def test_media_elementos_positivos_y_negativos(self):
         self.assertEqual(calcular_media([-3, -1, 1, 3]), 0)
+
+    def test_media_elementos_no_numericos(self):
+        with self.assertRaises(TypeError):
+            calcular_media([1, 2, "a", 3])
