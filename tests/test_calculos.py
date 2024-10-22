@@ -18,3 +18,6 @@ class TestCalculos(unittest.TestCase):
 
     def test_media_varios_elementos_ceros(self):
         self.assertEqual(calcular_media([0, 0, 0, 0]), 0)
+
+    def test_media_elementos_positivos_y_negativos(self):
+        self.assertEqual(calcular_media([-3, -1, 1, 3]), 0)
