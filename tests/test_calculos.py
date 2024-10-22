@@ -38,3 +38,6 @@ class TestCalculos(unittest.TestCase):
 
     def test_desviacion_varios_elementos_positivos(self):
         self.assertAlmostEqual(calcular_desviacion_estandar([1, 2, 3, 4, 5]), 1.414213562)
+
+    def test_desviacion_varios_elementos_ceros(self):
+        self.assertEqual(calcular_desviacion_estandar([0, 0, 0, 0]), 0.0)
